@@ -1,0 +1,76 @@
+html, body{
+  height: 500em;
+}
+
+
+body h1{
+  font-family: 'Source Code Pro';
+  font-size: 5.0vw;
+  font-weight: bold;
+}
+h1.my_name_typed{
+  width: 100%;
+  visibility: hidden;
+  position: fixed;
+  top: 40%;
+  left: 35%;
+}
+#cursor{
+  margin: 0 5px;
+  border-right: 1px black solid;
+}
+.tokyo_tower{
+  width: 25%;
+  min-height: 70%;
+  max-height: 80%; 
+  position: fixed;
+  top: 100%;
+  left: 38%;
+}
+.about_info{
+  font-family: 'Courier New';
+  font-size: 1.5vw;
+  opacity: 0;
+  position: fixed;
+}
+.location{
+  top: 40%;
+  left: 60%;
+}
+.birth{
+  top: 54%;
+  left: 63%;
+}
+.circle{
+  width: 1vw;
+  height: 1vw;
+  border-radius: 0.5vw;
+  opacity: 0;
+  position: fixed;
+}
+.circle.blue{
+  top: 35%;
+  left: 55%;
+  border: 2px solid blue;
+}
+.circle.green{
+  top: 45%;
+  left: 65%;
+  border: 2px solid green;
+}
+.yuzu_side_face{
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  height: 80%;
+  min-width: 60%;
+  opacity: 0;
+}
+.yuzu_about{
+  font-family: "Courier New";
+  font-size: 1.5vw;
+  position: fixed;
+  top: 35%;
+  left: 22%;
+
+}
