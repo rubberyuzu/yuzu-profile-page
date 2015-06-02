@@ -2,7 +2,6 @@ html, body{
   height: 500em;
 }
 
-
 body h1{
   font-family: 'Source Code Pro';
   font-size: 5.0vw;
@@ -41,6 +40,7 @@ h1.my_name_typed{
   top: 54%;
   left: 63%;
 }
+
 .circle{
   width: 1vw;
   height: 1vw;
@@ -58,13 +58,30 @@ h1.my_name_typed{
   left: 65%;
   border: 2px solid green;
 }
+.circle.violet{
+  top: 20%;
+  left: 35%;
+  border: 2px solid #9966CC;
+  z-index: 10;
+}
+.circle.violet2{
+  top: 20%;
+  left: 35%;
+  border: 2px solid #9999FF;
+}
+.circle.violet3{
+  top: 20%;
+  left: 35%;
+  border: 2px solid #99CCFF;
+}
+
 .yuzu_side_face{
   position: fixed;
   bottom: 0%;
   right: 0%;
   height: 80%;
-  min-width: 60%;
   opacity: 0;
+  z-index: 200;
 }
 .yuzu_about{
   font-family: "Courier New";
@@ -72,5 +89,40 @@ h1.my_name_typed{
   position: fixed;
   top: 35%;
   left: 22%;
-
+}
+.furin_glass{
+  position: fixed;
+  top: -60%;
+  left: 40%;
+  min-width: 20%;
+  height: 70%;
+  transform-origin: 50% 0%;
+}
+.furin_paper{
+  transform: skew(10deg, 20deg);
+  transform-origin: 0% -150%;
+  min-width: 7.5%;
+  height: 60%;
+  position: fixed;
+  top: 30%;
+  left: 46%;
+  background-color: black;
+  color: white;
+  font-family: "Courier New";
+  padding: 3.5vw;
+}
+.skill_list{
+  position: fixed;
+  top: 25%;
+  left: 10%;
+  font-family: "Courier New";
+  font-size: 2vw;
+  list-style-type: none;
+}
+.skill_list li{
+  padding-top: 1.5vw;
+}
+.skill_line{
+  background-color: black;
+  height: 1vw;
 }
