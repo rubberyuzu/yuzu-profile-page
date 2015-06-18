@@ -26,3 +26,44 @@
 .projects_wrapper{
   top: 860em;
 }
+
+.experience_explanation{
+  font-size: 2vw;
+  width: 14vw;
+  position: fixed;
+  top: 40vw;
+}
+.experience_year{
+  font-family: 'Courier New';
+  font-size: 2vw;
+  position: fixed;
+  top: 18vw;
+  width: 14vw;
+}
+.dashed_line{
+  position: fixed;
+  top: 50vw;
+  left: 90%;
+  color: black;
+  height: 0.5vw;
+  border-style: dashed;
+}
+/*.experience{
+  display: block;
+  float: left;
+  width: 14vw;
+  height: 20vw;
+  margin-left: 4vw;
+}*/
+.experience_block{
+  width: 12vw;
+  height: 12vw;
+  color:black;
+  top: 24vw;
+  transform: rotate(45deg);
+}
+.experience_title{
+  font-size: 2.5vw;
+  padding-top: 4vw;
+  text-align: center;
+}

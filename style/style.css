@@ -155,21 +155,22 @@ h1.my_name_typed{
 
 .bike_body{
   position: fixed;
-  top:20%;
+  top:12vw;
   left: -30%;
   width: 30%;
 }
 .bike_wheel{
   position: fixed;
   width: 20%;
-  top: 45%;
+  top: 24vw;
 }
 .experience_all{
   position: fixed;
-  top: 10vw;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  /*background-color: orange;*/
 }
 .experience{
   display: block;
@@ -180,8 +181,8 @@ h1.my_name_typed{
 }
 
 .experience_line{
-  position: fixed;
-  top: 20vw;
+  position: relative;
+  top: 24.3vw;
   left: -5%;
   background-color: black;
   height: 0.5vw;
@@ -193,8 +194,8 @@ h1.my_name_typed{
   color:black;
   background-color: white;
   border: 0.5vw solid black;
-  position: fixed;
-  top: 16vw;
+  position: relative;
+  top: 20vw;
   transform: rotate(45deg);
 }
 .experience_title{
@@ -212,13 +213,13 @@ h1.my_name_typed{
   font-size: 1.2vw;
   width: 14vw;
   position: fixed;
-  top: 28vw;
+  top: 33vw;
 }
 .experience_year{
   font-family: 'Courier New';
   font-size: 1.5vw;
   position: fixed;
-  top: 10vw;
+  top: 12vw;
   width: 14vw;
 }
 .tokyo_univ{
@@ -253,7 +254,7 @@ h1.my_name_typed{
 }
 .dashed_line{
   position: fixed;
-  top: 20vw;
+  top: 24.3vw;
   left: 90%;
   color: black;
   height: 0.5vw;
@@ -272,7 +273,7 @@ h1.my_name_typed{
   left: 49vw;
   top: 100%;
   width: 1vw;
-  height: 30vw;
+  height: 40vw;
 }
 .projects_info{
   position: fixed;
@@ -400,4 +401,7 @@ h1.my_name_typed{
   float: left;
   margin-right: 6.5%;
   margin-bottom: 2%;
+}
+.random_noise{
+  opacity: 0.3;
 }
