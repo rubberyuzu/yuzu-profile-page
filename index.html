@@ -11,6 +11,12 @@
 <script type="text/javascript" src="js/skrollr.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script src="js/tween.min.js"></script>
+<script type="text/javascript">
+    // smartphone
+    if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+      location.href = './smartphone.html';
+    }
+  </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,6 +27,7 @@
   ga('send', 'pageview');
 
 </script>
+
 </head>  
 <body>
 
