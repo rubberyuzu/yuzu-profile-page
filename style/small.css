@@ -42,19 +42,13 @@
 }
 .dashed_line{
   position: fixed;
-  top: 50vw;
+  top: 30.5vw;
   left: 90%;
   color: black;
-  height: 0.5vw;
+  height: 1px;
   border-style: dashed;
 }
-/*.experience{
-  display: block;
-  float: left;
-  width: 14vw;
-  height: 20vw;
-  margin-left: 4vw;
-}*/
+
 .experience_block{
   width: 12vw;
   height: 12vw;
@@ -62,8 +56,32 @@
   top: 24vw;
   transform: rotate(45deg);
 }
+.experience_line{
+  top: 30.5vw;
+}
 .experience_title{
   font-size: 2.5vw;
   padding-top: 4vw;
   text-align: center;
+}
+
+.kazaguruma_stick{
+  visibility: hidden;
+}
+
+.furin_glass{
+  position: fixed;
+  top: -60%;
+  left: 25vw;
+  min-width: 20%;
+  height: 70%;
+  transform-origin: 50% 0%;
+}
+.furin_paper{
+  left: 35vw;
+  width: 15vw;
+}
+.skill_list{
+
+  left: -5%;
 }
