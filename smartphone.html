@@ -205,7 +205,7 @@
 <img class="lines_background" data-14200="opacity:0" data-14500="opacity:0.1" src="img/lines.png"/>
 
 
-<div class="contacts" data-14200="opacity:0" data-14400="opacity:1;">
+<div class="contacts" data-14200="opacity:0; z-index:-100;" data-14400="opacity:1; z-index:300;">
   <!-- linkedin, github, facebook, twitter, medium, hatena -->
   <a href="https://www.linkedin.com/pub/yuzu-saijo/60/b97/b16" target="_blank"><img src="img/linked_in_icon_round.png" class="sns_logo"></a>
   <a href="https://github.com/rubberyuzu" target="_blank"><img src="img/github_icon_round.png" class="sns_logo"></a>
@@ -217,14 +217,5 @@
 </div>
 </body>
 <script type="text/javascript">skrollr.init();
-  $(window).scroll(function(){
-    $scroll = $(this).scrollTop();
-    if($scroll < 11400){
-      $(".sns_logo").css("pointer-events", "none");
-    }else if($scroll < 14500){
-      $(".sns_logo").css("pointer-events", "auto");
-    }    
-  });
-
 </script>
 </html>

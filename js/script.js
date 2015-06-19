@@ -54,7 +54,6 @@ $(function(){
     }
 
     if($scroll < 13800){
-      $(".sns_logo").css("pointer-events", "none");
     }else if ($scroll < 14000){
       delete_noise();
       init_called = false;
