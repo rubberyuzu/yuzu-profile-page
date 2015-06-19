@@ -9,7 +9,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">  
 <script src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/skrollr.min.js"></script>
-<script type="text/javascript" src="js/script_for_smartphone.js"></script>
 <script src="js/tween.min.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -140,52 +139,42 @@
   <div class="project" >
     <img src="img/beer.png" class="beer_back project_background" />
     <span class="project_name"><a class="first_projectpage_link" href="http://amber-brew.herokuapp.com/" target="_blank" style="z-index:100;" >Amber</a></span><br>
-    <div data-11700="opacity:0" data-11750="opacity:1"　data-11870="opacity:1" data-11950="opacity:0">
       <span class="project_type">Web App,</span>
       <span class="project_year">2014,</span><br>
       <span class="project_team">Students Group at <a href="http://devbootcamp.com/" target="_blank" style="z-index:100;" >DevBootcamp</a>,</span>
       <p class="project_desc">Amber is a rails/javascript app which allows users to choose food flavor profiles and makes solid beer pairing suggestions.</p>
-    </div>
   </div>
   <div class="project" >
     <img src="img/play_this.png" class="play_this_back project_background" />
     <span class="project_name"><a class="first_projectpage_link" href="http://calm-dusk-9144.herokuapp.com/" target="_blank" style="z-index:100;" >Play This DJ</a></span><br>
-    <div data-11800="opacity:0" data-11850="opacity:1" data-11970="opacity:1" data-12050="opacity:0">
       <span class="project_type">Web App,</span>
       <span class="project_year">2014,</span><br>
       <span class="project_team">Personal,</span>
       <p class="project_desc">Play This DJ is a sinatra app in which you can listen to songs by getting requests by your friends on real time.</p>
-    </div>
   </div>
   <div class="project" >
     <img src="img/andy_logo.png" class="andy_back project_background" />
     <span class="project_name"><a class="first_projectpage_link" href="https://andymori-oideyo.herokuapp.com/" target="_blank" style="z-index:100;" >Oideyo lyrics collector</a></span><br>
-    <div data-11900="opacity:0" data-11950="opacity:1" data-12070="opacity:1" data-12150="opacity:0">
       <span class="project_type">Web App,</span>
       <span class="project_year">2014,</span><br>
       <span class="project_team">Personal,</span>
       <p class="project_desc">Oideyo lyrics collector is a rails app to remember the lyrics of the song "Oideyo" by andymori which broke up in 2014. Over 100 fans of andymori used this app and helped remembering the wonderful song.</p>
-    </div>
   </div>
   <div class="project" >
     <img src="img/fukiya.png" class="fukiya_back project_background" />
     <span class="project_name"><a class="second_projectpage_link" href="http://withnews.jp/article/f0141208000qq000000000000000W0080901qq000011232A" target="_blank" style="z-index:100;" >Fuki Iin (Blowgun)</a></span><br>
-    <div data-12000="opacity:0" data-12050="opacity:1" data-12170="opacity:1" data-12250="opacity:0">
       <span class="project_type">Android App/ Rails server,</span>
       <span class="project_year">2014,</span><br>
       <span class="project_team">Univ of Tokyo female Hackathon group,</span>
       <p class="project_desc">Fuki iin is an Android app designed for Univ of Tokyo female students to deal with stress they face. You can shoot a blogun and virtually attack your enemy by blowing into a microphone. <u>Got an Amazon award.</u></p>
-    </div>
   </div>
     <div class="project" >
     <img src="img/persona.png" class="persona_back project_background" />
     <span class="project_name"><b>Persona Hitoe</b></span><br>
-    <div data-12100="opacity:0" data-12150="opacity:1" data-12270="opacity:1" data-12350="opacity:0">
       <span class="project_type">Android App/ Arduino/ Media Art,</span>
       <span class="project_year">2014,</span><br>
       <span class="project_team">Google Japan STEP intern group,</span>
       <p class="project_desc">Persona Hitoe is an Android app which can detect user's speech and light up the sweater differently based on it. This way we visualized how we choose different personas in different situations.</p>
-    </div>
   <!-- </div> -->
   </div>
 </div>
@@ -228,5 +217,14 @@
 </div>
 </body>
 <script type="text/javascript">skrollr.init();
+  $(window).scroll(function(){
+    $scroll = $(this).scrollTop();
+    if($scroll < 11400){
+      $(".sns_logo").css("pointer-events", "none");
+    }else if($scroll < 14500){
+      $(".sns_logo").css("pointer-events", "auto");
+    }    
+  });
+
 </script>
 </html>

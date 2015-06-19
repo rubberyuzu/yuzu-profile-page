@@ -100,8 +100,8 @@
   border: 0.5vw solid black;
   position: relative;
   top: 50vw;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .experience_title{
@@ -113,7 +113,6 @@
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  padding-top: 20vw;
   text-align: center;
 }
 .experience_explanation{
