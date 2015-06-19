@@ -169,6 +169,8 @@
   left: 35vw;
   top: 100%;
   width: 30%;
+  -webkit-transform-origin: 47.5% 50%;
+  -ms-transform-origin: 47.5% 50%;
   transform-origin: 47.5% 50%;
 }
 .kazaguruma_stick{
@@ -199,10 +201,16 @@
   left: 30%;
   min-width: 20%;
   height: 70%;
+  -webkit-transform-origin:  50% 0%;
+  -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
 }
 .furin_paper{
+  -webkit-transform: skew(10deg, 20deg);
+  -ms-transform: skew(10deg, 20deg);
   transform: skew(10deg, 20deg);
+  -webkit-transform-origin:  0% -150%;
+  -ms-transform-origin: 0% -150%;
   transform-origin: 0% -150%;
   min-width: 20%;
   height: 60%;
