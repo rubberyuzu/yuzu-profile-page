@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="utf-8">
+<meta content="width=320,initial-scale=1.0,minimum-scale=1.0" name="viewport" />
 <title>yuzu saijo</title>
 <link rel="stylesheet" type="text/css" href="style/smartphone.css">
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">  
 <script src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/skrollr.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script_for_smartphone.js"></script>
 <script src="js/tween.min.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,8 +22,207 @@
 
 </head>  
 <body>
-  <div class="page">
-    <h1>YUZU SAIJO</h1>
+  <h1 class="my_name" data-0="opacity:0;" data-250="opacity:1;top: 30%;" data-500="top: 30%;" data-750="top:2%;">YUZU SAIJO</h1>
+  <!-- about yuzu -->
+  <img src="img/tokyo-tower.png" data-500="top:100%;" data-750="top:15%;" data-1000="left:38%;opacity:1;" data-1400="left:5%;opacity:0;" class="tokyo_tower" />
+
+  <span class="location about_info"  data-650="opacity:0" data-800="opacity:1" data-1100="opacity:0">living in Tokyo</span>
+  <span class="birth about_info"  data-650="opacity:0" data-800="opacity:1" data-1100="opacity:0">born in 1994</span>
+
+  <img src="img/yuzu_side_face.png" data-1200="opacity:0;" data-1600="opacity:0.2;" data-2600="opacity:0.2;" data-2800="opacity:0;" class="yuzu_side_face" />
+  <p class="yuzu_about" data-1400="opacity:0;" data-1700="opacity:1;" data-1900="opacity:1;" data-2100="opacity:0;">
+  Yuzu is a fullstack software engineer <br><br>
+  who is always excited about something new.
+  </p>
+  <p class="yuzu_about" data-2100="opacity:0;" data-2400="opacity:1;" data-2600="opacity:1;" data-2800="opacity:0;">
+  Yuzu loves performance culture and<br><br>
+  aspires to explore how technology can<br><br>
+  marry entertainment.
+  </p>
+
+  <ul class="skill_list sl_one" data-4000="opacity:0"; data-4500="opacity:1" data-5000="opacity:1"data-5400="opacity:0">
+  <li>C++ <span class="explanation_skill" data-4700="opacity:0;" data-4750="opacity:0.4" data-5200="opacity:0.4">:learning...</span><figure class="skill_line" data-4100="width:0vw" data-4500="width:45vw" data-5000="opacity:1"></figure></li>
+  <li>Ruby <span class="explanation_skill" data-4700="opacity:0;" data-4750="opacity:0.4" data-5200="opacity:0.4">:my native language, cheers to Matz♥</span><figure class="skill_line" data-4100="width:0vw" data-4500="width:65vw" data-5200="opacity:1"></figure></li>
+  <li>Rails <span class="explanation_skill" data-4700="opacity:0;" data-4750="opacity:0.4" data-5200="opacity:0.4">:professional.</span><figure class="skill_line" data-4100="width:0vw" data-4500="width:75vw" data-5200="opacity:1"></figure></li>
+  <li>Frontend <span class="explanation_skill" data-4700="opacity:0;" data-4750="opacity:0.4" data-5200="opacity:0.4">:like it.</span><figure class="skill_line" data-4100="width:0vw" data-4500="width:65vw" data-5200="opacity:1"></figure></li>
+  <li>Android dev <span class="explanation_skill" data-4700="opacity:0;" data-4750="opacity:0.4" data-5200="opacity:0.4">:hobby.</span><figure class="skill_line" data-4100="width:0vw" data-4500="width:35vw" data-5200="opacity:1"></figure></li>
+  <li>openFrameworks <span class="explanation_skill" data-4700="opacity:0;" data-4750="opacity:0.4" data-5200="opacity:0.4">:another lovely hobby.</span><figure class="skill_line" data-4100="width:0vw" data-4500="width:35vw" data-5200="opacity:1"></figure></li>
+</ul>
+<ul class="skill_list sl_two" data-5400="opacity:0" data-5700="opacity:1" data-6000="opacity:1" data-6200="opacity:0">
+  <br><br>
+  <li>English <span class="explanation_skill" data-5700="opacity:0" data-5750="opacity:0.4"data-6000="opacity:0.4">:business level</span><figure class="skill_line" data-5400="width:0vw" data-5700="width:55vw" data-6200="opacity:1"></figure></li>
+  <li>Japanese <span class="explanation_skill" data-5700="opacity:0" data-5750="opacity:0.4"data-6000="opacity:0.4">:mother tongue</span><figure class="skill_line" data-5400="width:0vw" data-5700="width:75vw" data-6200="opacity:1"></figure></li>
+</ul>
+
+
+<!-- bicycle -->
+<img src="img/bike_body.png" data-6200="left:-45%;" data-6500="left:34%;" data-6650="left:35%;" data-7000="left:120%;" class="bike_body" />
+<img src="img/bike_wheel.png" data-6200="transform:rotate(0deg); left:-54%;" data-6500="transform:rotate(360deg); left:25%;" data-6650="transform:rotate(390deg); left:26%;" data-7000="transform:rotate(720deg); left:111%;" class="bike_wheel left" />
+<img src="img/bike_wheel.png" data-6200="transform:rotate(0deg); left:-26%;" data-6500="transform:rotate(360deg); left:53%;" data-6650="transform:rotate(390deg); left:54%;" data-7000="transform:rotate(720deg); left:139%;" class="bike_wheel right" />
+
+
+<!-- experience -->
+<!-- ut, cal, dbc, google, apple, google -->
+<div class="experience_all" data-6700="opacity:0" data-7000="opacity:1" data-9500="opacity:1" data-9600="opacity:0">
+  <figure class="experience_line" data-6700="width:0vw" data-9300="width:96vw"></figure>
+  <!-- experience images -->
+  <img src="img/tokyo_univ.png" data-6800="opacity:0;" data-6900="opacity:0.1;" data-7200="opacity:0.1" data-7300="opacity:0;" class="tokyo_univ" />
+  <img src="img/cal_night.png" data-7300="opacity:0;" data-7400="opacity:0.1;" data-7700="opacity:0.1" data-7800="opacity:0;" class="cal_night" />
+  <img src="img/google_balloons.png" data-7800="opacity:0;" data-7900="opacity:0.1;" data-8200="opacity:0.1" data-8300="opacity:0;" class="google_balloons" />
+  <img src="img/apple_hq.png" data-8300="opacity:0;" data-8400="opacity:0.1;" data-8700="opacity:0.1" data-8800="opacity:0;" class="apple_hq" />
+  <img src="img/google_balloons.png" data-8800="opacity:0;" data-8900="opacity:0.1;" data-9200="opacity:0.1" data-9300="opacity:0;" class="google_balloons" />
+
+  <!-- todai -->
+  <div class="experience" style="margin-left:5vw;" data-6800="opacity:0" data-6900="opacity:1">
+    <figure class="experience_block"><span class="experience_title">Todai</span></figure><span class="experience_year">2012 Apr~ <br>(~2017)</span><span class="experience_explanation"><b>The University of Tokyo</b><br>BS, Information Studies Major</span>
+  </div>
+  <!-- cal -->
+  <div class="experience" data-7300="opacity:0" data-7400="opacity:1">
+    <figure class="experience_block"><span class="experience_title">Cal</span></figure><span class="experience_year">2013 Aug~ <br>~2014 May</span><span class="experience_explanation"><b>University of California, Berkeley</b><br>Exchange Student, Computer Science, Media Studies</span>
+  </div>
+  <!-- Google -->
+  <div class="experience" data-7800="opacity:0" data-7900="opacity:1">
+    <figure class="experience_block"><span class="experience_title">Google</span></figure><span class="experience_year">2014 Aug~ <br>~2014 Sep</span><span class="experience_explanation"><b>Google Japan</b><br>Software Engineer Internship, Google Maps team</span>
+  </div>
+  <!-- Apple -->
+  <div class="experience" data-8300="opacity:0" data-8400="opacity:1">
+    <figure class="experience_block"><span class="experience_title">Apple</span></figure><span class="experience_year">2015 Feb~ <br>~2015 Apr</span><span class="experience_explanation"><b>Apple HQ</b><br>Software Engineer Internship in Cupertino</span>
+  </div>
+  <!-- Google -->
+  <div class="experience" data-8800="opacity:0" data-8900="opacity:1">
+    <figure class="experience_block"><span class="experience_title">Google</span></figure><span class="experience_year">2015 Jul~ <br>(~2015 Sep)</span><span class="experience_explanation"><b>Google Japan</b><br>Software Engineer Internship, Google Chrome team</span>
+  </div>
+  <!-- current -->
+   <figure data-9300="width:0vw; opacity:0;" data-9400="width:10vw;opacity:1;" class="dashed_line">
+</div>
+
+<!-- kazaguruma -->
+<figure class="kazaguruma_stick" data-9600="top:100%;"data-9900="top:50%" data-10800="opacity:1"data-11000="opacity:0"></figure>
+<img src="img/kazaguruma.png" class="kazaguruma" data-9600="top:100%;;transform:rotate(0deg)" data-9900="top:40%;transform:rotate(10deg)"data-10100="transform:rotate(20deg)"data-10300="transform:rotate(35deg)"data-10600="transform:rotate(100deg)"data-10600="transform:rotate(300deg)" data-11000="transform:rotate(600deg); opacity:1"data-11300="transform:rotate(2000deg); opacity:0">
+
+
+  <div class="circles">
+  <!-- about me page 1 -->
+    <figure class="circle blue" data-675="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:35%;left:63%;" data-750="opacity:0.2;width:20vw;height:20vw;border-radius:10vw;top:26%;left:54%;" data-1200="width:20vw;height:20vw;border-radius:10vw;opacity:0;top:26%;left:54%;" ></figure>
+    <figure class="circle green" data-725="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:48%;left:69%;" data-800="opacity:0.2;width:20vw;height:20vw;border-radius:10vw;top:39%;left:60%;" data-1250="width:30vw;height:30vw;border-radius:15vw;opacity:0;top:34%;left:55%;" ></figure>
+    <!-- about me page 2 -->
+    <figure class="circle violet" data-1600="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:45%;left:25%;" data-1700="opacity:0.2;width:30vw;height:30vw;border-radius:15vw;top:30%;left:10%;" data-2200="width:50vw;height:50vw;border-radius:25vw;opacity:0;top:20%;left:0%;" ></figure>
+    <figure class="circle violet2" data-2300="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:40%;left:40%;" data-2400="opacity:0.2;width:20vw;height:20vw;border-radius:10vw;top:30%;left:30%;" data-2800="width:30vw;height:30vw;border-radius:15vw;opacity:0;top:25%;left:25%;" ></figure>
+    <figure class="circle violet3" data-2400="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:50%;left:30%;" data-2500="opacity:0.2;width:30vw;height:30vw;border-radius:15vw;top:35%;left:15%;" data-2800="width:50vw;height:50vw;border-radius:25vw;opacity:0;top:25%;left:5%;" ></figure>
+
+
+
+  <!-- furin -->
+  <img src="img/furin.png" data-2800="top:-71%;" data-3000="top:-15%; transform:rotate(0deg);" data-3300="top:-15%;transform:rotate(-15deg);" data-3350="top:-15%;transform:rotate(-15deg);" data-3950="top:-15%;transform:rotate(15deg);"data-4000="top:-15%;transform:rotate(15deg);" data-4300="top:-15%;transform:rotate(0deg);opacity:1;"  data-4600="top:-15%;transform:rotate(-110deg);opacity:0;" class="furin_glass" />
+  <figure 
+  data-2800="top:-70%;" data-3000="top:62%; transform:rotate(0deg) translateX(0px) rotateY(0deg)" 
+  data-3300="top:62%;transform:rotate(-15deg) translateX(20px) rotateY(-45deg)" 
+  data-3350="top:62%;transform:rotate(-15deg) translateX(20px) rotateY(-45deg)" 
+  data-3950="top:62%;transform:rotate(15deg) translateX(20px) rotateY(45deg)"
+  data-4000="top:62%;transform:rotate(15deg) translateX(20px) rotateY(45deg)" 
+  data-4300="top:62%;transform:rotate(0deg) translateX(20px) rotateY(0deg); opacity:1"  
+  data-4350="top:62%;transform:rotate(-15deg) translateX(20px) rotateY(-45deg);" 
+  data-4600="top:62%;transform:rotate(-90deg) translateX(20px) rotateY(-90deg); opacity:0" class="furin_paper">S<br>H <br>E <br>C<br>O <br>D <br>E <br>S <br> </figure>
+
+
+<div class="projects_wrapper">
+  <div data-11400="opacity:0" data-11500="opacity:1" data-12000="opacity:1" data-12100="opacity:0">
+  <div class="project" style="top:30vw;">
+    <img src="img/beer.png" class="beer_back project_background" />
+    <span class="project_name"><a href="http://amber-brew.herokuapp.com/" target="_blank" style="z-index:100;" >Amber</a></span><br>
+    <div data-11700="opacity:0" data-11750="opacity:1"　data-11870="opacity:1" data-11950="opacity:0">
+      <span class="project_type">Web App,</span>
+      <span class="project_year">2014,</span><br>
+      <span class="project_team">Students Group at <a href="http://devbootcamp.com/" target="_blank" style="z-index:100;" >DevBootcamp</a>,</span>
+      <p class="project_desc">Amber is a rails/javascript app which allows users to choose food flavor profiles and makes solid beer pairing suggestions.</p>
+    </div>
+  </div>
+  <div class="project" style="top:70vw;">
+    <img src="img/play_this.png" class="play_this_back project_background" />
+    <span class="project_name"><a href="http://calm-dusk-9144.herokuapp.com/" target="_blank" style="z-index:100;" >Play This DJ</a></span><br>
+    <div data-11800="opacity:0" data-11850="opacity:1" data-11970="opacity:1" data-12050="opacity:0">
+      <span class="project_type">Web App,</span>
+      <span class="project_year">2014,</span><br>
+      <span class="project_team">Personal,</span>
+      <p class="project_desc">Play This DJ is a sinatra app in which you can listen to songs by getting requests by your friends on real time.</p>
+    </div>
+  </div>
+  <div class="project" style="top:110vw;">
+    <img src="img/andy_logo.png" class="andy_back project_background" />
+    <span class="project_name"><a href="https://andymori-oideyo.herokuapp.com/" target="_blank" style="z-index:100;" >Oideyo lyrics collector</a></span><br>
+    <div data-11900="opacity:0" data-11950="opacity:1" data-12070="opacity:1" data-12150="opacity:0">
+      <span class="project_type">Web App,</span>
+      <span class="project_year">2014,</span><br>
+      <span class="project_team">Personal,</span>
+      <p class="project_desc">Oideyo lyrics collector is a rails app to remember the lyrics of the song "Oideyo" by andymori which broke up in 2014. Over 100 fans of andymori used this app and helped remembering the wonderful song.</p>
+    </div>
+  </div>
   </div>
 
+  <div data-12400="opacity:0" data-12500="opacity:1" data-12700="opacity:1" data-12800="opacity:0">
+  <div class="project" style="top:30vw;">
+    <img src="img/fukiya.png" class="fukiya_back project_background" />
+    <span class="project_name"><a href="http://withnews.jp/article/f0141208000qq000000000000000W0080901qq000011232A" target="_blank" style="z-index:100;" >Fuki Iin (Blowgun)</a></span><br>
+    <div data-12400="opacity:0" data-12450="opacity:1" data-12570="opacity:1" data-12650="opacity:0">
+      <span class="project_type">Android App/ Rails server,</span>
+      <span class="project_year">2014,</span><br>
+      <span class="project_team">Univ of Tokyo female Hackathon group,</span>
+      <p class="project_desc">Fuki iin is an Android app designed for Univ of Tokyo female students to deal with stress they face. You can shoot a blogun and virtually attack your enemy by blowing into a microphone. <u>Got an Amazon award.</u></p>
+    </div>
+  </div>
+    <div class="project" style="top:70vw;">
+    <img src="img/persona.png" class="persona_back project_background" />
+    <span class="project_name"><b>Persona Hitoe</b></span><br>
+    <div data-12500="opacity:0" data-12550="opacity:1" data-12670="opacity:1" data-12750="opacity:0">
+      <span class="project_type">Android App/ Arduino/ Media Art,</span>
+      <span class="project_year">2014,</span><br>
+      <span class="project_team">Google Japan STEP intern group,</span>
+      <p class="project_desc">Persona Hitoe is an Android app which can detect user's speech and light up the sweater differently based on it. This way we visualized how we choose different personas in different situations.</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="stars" data-14200="top:0%" data-14400="top:-10%">
+    <!-- <img src="img/dipper.jpg" class="dipper"> -->
+  <svg class="star"  height="100%" width="100%" viewBox="0 0 100 50">
+   <circle cx="27%" cy="62%" r="0.4%" data-12700="opacity:0" data-12800="opacity:1"/>
+   <circle cx="28%" cy="44%" r="0.4%" data-12900="opacity:0" data-13000="opacity:1"/>
+   <circle cx="42%" cy="40%" r="0.4%" data-13100="opacity:0" data-13200="opacity:1"/>
+   <circle cx="45%" cy="56%" r="0.4%" data-13300="opacity:0" data-13400="opacity:1"/>
+   <circle cx="54%" cy="61%" r="0.4%" data-13500="opacity:0" data-13600="opacity:1"/>
+   <circle cx="61%" cy="66%" r="0.4%" data-13700="opacity:0" data-13800="opacity:1"/>
+   <circle cx="73%" cy="58%" r="0.4%" data-13900="opacity:0" data-14000="opacity:1"/>
+  </svg>
+
+  <svg class="star"  height="100%" width="100%" viewBox="0 0 100 50" data-14000="opacity:0" data-14100="opacity:1" >  
+   <line x1="27%" y1="62%" x2="28%" y2="44%" class="dipper_line"/>
+   <line x1="28%" y1="44%" x2="42%" y2="40%" class="dipper_line"/>
+   <line x1="42%" y1="40%" x2="45%" y2="56%" class="dipper_line"/>
+   <line x1="45%" y1="56%" x2="54%" y2="61%" class="dipper_line"/>
+   <line x1="54%" y1="61%" x2="61%" y2="66%" class="dipper_line"/>
+   <line x1="61%" y1="66%" x2="73%" y2="58%" class="dipper_line"/>
+  </svg>
+</div>
+
+<div class="contacts" data-14200="opacity:0" data-14400="opacity:1;">
+  <!-- linkedin, github, facebook, twitter, medium, hatena -->
+  <a href="https://www.linkedin.com/pub/yuzu-saijo/60/b97/b16" target="_blank"><img src="img/linked_in_icon_round.png" class="sns_logo"></a>
+  <a href="https://github.com/rubberyuzu" target="_blank"><img src="img/github_icon_round.png" class="sns_logo"></a>
+  <a href="https://facebook.com/yuzu.saijo" target="_blank"> <img src="img/facebook_icon_round.png" class="sns_logo"> </a>
+  <a href="https://twitter.com/rubberyuzu" target="_blank"> <img src="img/twitter_icon_round.png" class="sns_logo"> </a>
+  <a href="https://medium.com/@rubberyuzu" target="_blank"><img src="img/medium_icon_round.png" class="sns_logo"></a>
+  <a href="http://rubberyuzu.hatenablog.com/" target="_blank"><img src="img/hatenablog_icon_round.png" class="sns_logo"></a>
+</div>  
+
+<!-- skills -->
+    <figure class="circle pink1" data-4200="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:65%;left:70%;" data-4300="opacity:0.2;width:15vw;height:15vw;border-radius:7.5vw;top:57.5%;left:62.5%;" data-4600="width:25vw;height:25vw;border-radius:12.5vw;opacity:0;top:47.5%;left:57.5%;" ></figure>
+    <figure class="circle pink2" data-4500="opacity:0;width:1vw;height:1vw;bornder-radius:0.5vw;top:40%;left:50%;" data-4600="opacity:0.2;width:30vw;height:30vw;border-radius:15vw;top:25%;left:35%;" data-4900="width:50vw;height:50vw;border-radius:25vw;opacity:0;top:15%;left:25%;" ></figure>
+    <figure class="circle pink3" data-4550="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:30%;left:65%;" data-4650="opacity:0.2;width:20vw;height:20vw;border-radius:10vw;top:20%;left:55%;" data-4950="width:30vw;height:30vw;border-radius:15vw;opacity:0;top:15%;left:50%;" ></figure>
+    <figure class="circle red" data-5350="opacity:0;width:1vw;height:1vw;border-radius:0.5vw;top:35%;left:65%;" data-5450="opacity:0.2;width:20vw;height:20vw;border-radius:10vw;top:25%;left:55%;" data-5850="width:30vw;height:30vw;border-radius:15vw;opacity:0;top:20%;left:50%;" ></figure>
+  </div>
 </body>
+<script type="text/javascript">skrollr.init();
+</script>
+</html>

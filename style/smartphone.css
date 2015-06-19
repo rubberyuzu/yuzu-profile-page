@@ -1,0 +1,343 @@
+.my_name{
+  font-family: 'Source Code Pro';
+  font-size: 10.0vw;
+  font-weight: bold;
+  position: fixed;
+  top: 30%;
+  left: 19%;
+  opacity: 0;
+}
+.tokyo_tower{
+  width: 25%;
+  max-height: 80%;
+  position: fixed;
+  top: 100%;
+  left: 38%;
+}
+.about_info{
+  font-family: 'Courier New';
+  font-size: 4vw;
+  opacity: 0;
+  position: fixed;
+}
+.location{
+  left: 32%;
+  top: 70%;
+}
+.birth{
+  left: 35%;
+  top: 80%;
+}
+.yuzu_side_face{
+  height: 60%;
+  position: fixed;
+  right: -20%;
+  bottom: 0%;
+}
+.yuzu_about{
+  font-family: "Courier New";
+  font-size: 4vw;
+  position: fixed;
+  top: 20%;
+  left: 5%;
+}
+.skill_list{
+  position: fixed;
+  top: 20%;
+  left: 5%;
+  font-family:'Source Code Pro';
+  font-size: 4vw;
+  list-style-type: none;
+}
+.skill_list li{
+  padding-top: 10vw;
+}
+.skill_line{
+  background-color: black;
+  height: 0.7vw;
+  border-radius: 0.7vw;
+}
+.explanation_skill{
+  font-size: 2vw;
+  font-family: "Courier New";
+  margin-bottom: 0.7vw;
+  opacity: 0;
+}
+
+.bike_body{
+  position: fixed;
+  top: 40vw;
+  left: -30%;
+  width: 30%;
+}
+.bike_wheel{
+  position: fixed;
+  width: 20%;
+  top: 52vw;
+}
+
+.experience_all{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.experience{
+  display: block;
+  float: left;
+  width: 14vw;
+  height: 20vw;
+  margin-left: 4vw;
+}
+
+.experience_block{
+  width: 12vw;
+  height: 12vw;
+  color:black;
+  background-color: white;
+  border: 0.5vw solid black;
+  position: relative;
+  top: 50vw;
+  transform: rotate(45deg);
+}
+.experience_title{
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  font-family: "Source Code Pro";
+  font-size: 2vw;
+  transform: rotate(-45deg);
+  padding-top: 20vw;
+  text-align: center;
+}
+.experience_explanation{
+  font-family: 'Courier New';
+  font-size: 2.5vw;
+  width: 0vw;
+  position: fixed;
+  background-color: pink;
+  top: 80vw;
+}
+.experience_year{
+  font-family: 'Courier New';
+  font-size: 2.5vw;
+  position: fixed;
+  top: 30vw;
+  width: 14vw;
+}
+.experience_line{
+  position: relative;
+  top: 56.5vw;
+  left: -5%;
+  background-color: black;
+  height: 0.5vw;
+  border-radius: 0.5vw;
+}
+.tokyo_univ{
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  width: 80vw;
+}
+.cal_night{
+  position: fixed;
+  right: 0%;
+  bottom: -5%;
+  width: 100vw;
+}
+.google_me{
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  height: 100%;
+}
+.apple_hq{
+  position: fixed;
+  left: 0%;
+  bottom: -20%;
+  width: 100%;
+}
+.google_balloons{
+  position: fixed;
+  left: 0%;
+  bottom: -10%;
+  width: 100%;
+}
+.kazaguruma{
+  position: fixed;
+  left: 35vw;
+  top: 100%;
+  width: 30%;
+  transform-origin: 47.5% 50%;
+}
+.kazaguruma_stick{
+  background-color: black;
+  position: fixed;
+  left: 49vw;
+  top: 100%;
+  width: 1vw;
+  height: 40vw;
+}
+.dashed_line{
+  position: fixed;
+  top: 56.5vw;
+  left: 90%;
+  color: black;
+  height: 1px;
+  border-style: dashed;
+}
+.experience_title{
+  font-size: 2.5vw;
+  padding-top: 4vw;
+  text-align: center;
+}
+
+.furin_glass{
+  position: fixed;
+  top: -60%;
+  left: 30%;
+  min-width: 20%;
+  height: 70%;
+  transform-origin: 50% 0%;
+}
+.furin_paper{
+  transform: skew(10deg, 20deg);
+  transform-origin: 0% -150%;
+  min-width: 20%;
+  height: 60%;
+  position: fixed;
+  top: 30%;
+  left: 46%;
+  background-color: black;
+  color: white;
+  font-family: "Courier New";
+  padding: 10vw;
+}
+
+.projects_wrapper{
+  position: fixed;
+  left: 5vw;
+  width: 90vw;
+  height: 100em;
+  z-index: 100;
+}
+.project{
+  position: fixed;
+  font-size: 3vw;
+  font-family: "Courier New";
+  width: 100%;
+  height: 12em;
+}
+.project_name{
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  padding-left: 0.5vw;
+  font-weight: bold;
+}
+.project_type{
+  width: 8.5vw;
+  opacity: 0.5;
+}
+.project_year{
+  opacity: 0.5;
+}
+.project_team{
+  width: 15vw;
+  opacity: 0.5;
+}
+.project_desc{
+  width: 90vw;
+  opacity: 0.5;
+  margin-left: 1vw;
+}
+.project_background{
+  position: absolute;
+  left: 0%;
+  width: 90vw;
+  height: 40vw;
+  z-index: -100;
+  opacity: 0.05;
+}
+
+.stars{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.star{
+  position: fixed;
+}
+.dipper_line{
+  stroke:rgb(136,136,136);
+  stroke-width:0.3; 
+}
+.contacts{
+  z-index: 300;
+  position: fixed;
+  top: 70%;
+  left: 22%;
+  width: 80%;
+  height: 15%;
+  z-index: 300;
+}
+.sns_logo{
+  width: 18%;
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.random_noise{
+  opacity: 0.3;
+}
+
+
+
+.circle{
+  width: 1vw;
+  height: 1vw;
+  border-radius: 0.5vw;
+  opacity: 0;
+  position: fixed;
+}
+.circle.blue{
+  border: 2px solid blue;
+}
+.circle.green{
+  border: 2px solid green;
+}
+.circle.violet{
+  border: 2px solid #9966CC;
+  z-index: 10;
+}
+.circle.violet2{
+  border: 2px solid #9999FF;
+}
+.circle.violet3{
+  border: 2px solid #99CCFF;
+}
+
+.circle.pink1{
+  border: 2px solid #990000;
+}
+.circle.pink2{
+  border: 2px solid #CC0066;
+}
+.circle.pink3{
+  border: 2px solid #FF99CC;
+}
+.circle.red{
+  border: 2px solid #FF6633;
+}
+.circle.yellow{
+  border: 2px solid #FFCC33;
+}
+.circle.orange{
+  border: 2px solid #FF9900;
+}
+.circle.wakakusa{
+  border: 2px solid #99CC33;
+}

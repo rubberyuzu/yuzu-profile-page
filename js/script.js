@@ -5,10 +5,6 @@ $(function(){
   var cursor = "<span id='cursor' />";
   var charWidth = 5;
 
-  $(".testlink").click(function(){
-    alert('clicked');
-  })
-
   $(window).scroll(function(){
     $mynameCode.css('visibility', 'visible');
     $mynameCode.html(cursor);
@@ -120,27 +116,5 @@ $(function(){
         $(".random_noise").remove();
         console.log("surely removed");
       }
-    // Colors = {};
-    // Colors.names = {
-    //     aqua: "#00ffff",
-    //     azure: "#f0ffff",
-    //     blue: "#0000ff",
-    //     darkblue: "#00008b",
-    //     darkgreen: "#006400",
-    //     green: "#008000",
-    //     lightblue: "#add8e6",
-    //     lightgreen: "#90ee90",
-    //     lime: "#00ff00",
-    // };
-    // Colors.random = function() {
-    //     var result;
-    //     var count = 0;
-    //     for (var prop in this.names)
-    //         if (Math.random() < 1/++count)
-    //            result = prop;
-    //     return { name: result, rgb: this.names[result]};
-    // };
-
-
 
 })
