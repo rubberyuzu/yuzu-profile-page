@@ -99,6 +99,8 @@
   border: 0.5vw solid black;
   position: relative;
   top: 50vw;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(45deg);
 }
 .experience_title{
@@ -107,6 +109,8 @@
   height: 8vw;
   font-family: "Source Code Pro";
   font-size: 2vw;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   padding-top: 20vw;
   text-align: center;
@@ -116,7 +120,6 @@
   font-size: 2.5vw;
   width: 0vw;
   position: fixed;
-  background-color: pink;
   top: 80vw;
 }
 .experience_year{
@@ -238,6 +241,7 @@
   height: 12em;
 }
 .project_name{
+  font-size: 4vw;
   position: absolute;
   left: 0;
   z-index: 100;
@@ -298,10 +302,14 @@
   margin-right: 10%;
   margin-bottom: 5%;
 }
-.random_noise{
-  opacity: 0.3;
+.crazy_lines{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
 }
-
 
 
 .circle{
