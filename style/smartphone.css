@@ -4,7 +4,7 @@
   font-weight: bold;
   position: fixed;
   top: 30%;
-  left: 19%;
+  left: 14%;
   opacity: 0;
   z-index: 400;
 }
@@ -202,7 +202,7 @@
 .furin_glass{
   position: fixed;
   top: -60%;
-  left: 30%;
+  left: 20%;
   min-width: 20%;
   height: 70%;
   -webkit-transform-origin:  50% 0%;
@@ -220,7 +220,7 @@
   height: 60%;
   position: fixed;
   top: 30%;
-  left: 46%;
+  left: 40%;
   background-color: black;
   color: white;
   font-family: "Courier New";
@@ -309,7 +309,7 @@
   stroke-width:0.3; 
 }
 .contacts{
-  z-index: 300;
+  z-index: 500;
   position: fixed;
   top: 70%;
   left: 22%;
