@@ -113,7 +113,6 @@ $(function(){
       }
       function delete_noise(){
         $(".random_noise").remove();
-        console.log("surely removed");
       }
 
 })
